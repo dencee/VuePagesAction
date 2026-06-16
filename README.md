@@ -38,6 +38,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Vue App to Github Pages
-        uses: dencee/VuePagesAction@v1.0.1
+        uses: dencee/VuePagesAction@v1.0.1    # or use dencee/VuePagesAction@main for latest
 ```
 4. Go to `Settings` -> Scroll down to `Pages` -> Build and Development: Source -> `GitHub Actions`
